@@ -1,0 +1,27 @@
+{
+  "name": "docker-test-lab",
+  "version": "1.0.0",
+  "description": "Automated Testing with Selenium Grid with Chrome/FF nodes",
+  "main": "index.js",
+  "scripts": {
+    "test": "fixme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaimehperry/docker-test-lab.git"
+  },
+  "keywords": [
+    "docker",
+    "codeceptjs",
+    "selenium",
+    "grid",
+    "chrome",
+    "firefox"
+  ],
+  "author": "Jaime Perry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaimehperry/docker-test-lab/issues"
+  },
+  "homepage": "https://github.com/jaimehperry/docker-test-lab#readme"
+}
