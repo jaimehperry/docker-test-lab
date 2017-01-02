@@ -11,4 +11,4 @@ dependencies:
         - docker-compose up
 test:
     command: codeceptjs run --config codecept.chrome.config.js
-    post: docker-compose stop
+    post: - docker-compose stop
