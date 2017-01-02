@@ -9,3 +9,6 @@ dependencies:
         - sudo pip install docker-compose
     post:
         - docker-compose up
+test:
+    command: codeceptjs run --config codecept.chrome.config.js
+    post: docker-compose stop
