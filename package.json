@@ -4,7 +4,7 @@
   "description": "Automated Testing with Selenium Grid with Chrome/FF nodes",
   "main": "index.js",
   "scripts": {
-    "test": "codeceptjs run --config codecept.chrome.config.js  & codeceptjs run --config codecept.firefox.config.js"
+    "test": "codeceptjs run --config codecept.chrome.config.js  && codeceptjs run --config codecept.firefox.config.js"
   },
   "repository": {
     "type": "git",
