@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/jaimehperry/docker-test-lab#readme",
   "dependencies": {
-    "codeceptjs": "^0.4.13"
+    "codeceptjs": "^0.4.13",
+    "webdriverio": "^4.5.2"
   }
 }
