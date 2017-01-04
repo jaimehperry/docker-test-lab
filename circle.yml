@@ -11,8 +11,5 @@ dependencies:
         - docker-compose up -d
         - docker-compose scale chrome=10 firefox=10
 test:
-   override:
-        files: 
-            - e2e/tests/*.js
    post: 
         - docker-compose stop
