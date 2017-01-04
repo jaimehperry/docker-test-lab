@@ -12,7 +12,7 @@ dependencies:
         - docker-compose scale chrome=10 firefox=10
 test:
    override:
-        -   exec codeceptjs . :
+        -   codeceptjs run --steps  . :
             parallel: true
             files: 
                 - e2e/tests/*.js
