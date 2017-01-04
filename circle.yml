@@ -9,6 +9,7 @@ dependencies:
         - sudo pip install docker-compose
     post:
         - docker-compose up -d
+        - docker-compose scale chrome=10 firefox=10
 test:
    post: 
         - docker-compose stop
