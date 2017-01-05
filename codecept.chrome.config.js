@@ -10,7 +10,7 @@ exports.config = {
       "path":"/wd/hub",
       "browser": "chrome"
     },
-    "JSForce": { "require": "./e2e/helpers/jsforce_helper.js" }
+    "JSForce": { "require": "/e2e/helpers/jsforce_helper.js" }
   },
   "include": {
     "I": "./e2e/config/steps_file.js",

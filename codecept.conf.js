@@ -17,8 +17,10 @@ exports.config = {
   "bootstrap": false,
   "mocha": {
     "reporterOptions": {
-        "reportDir": "./e2e/output"
+        "reportDir": "./e2e/output",
+        "reportFileName": "lab-report.html",
+        "enableCharts": "true"
     }
   },
-  "name": "Codescience"
+  "name": "Codescience Demo"
 }
